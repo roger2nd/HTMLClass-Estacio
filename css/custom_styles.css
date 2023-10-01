@@ -5,6 +5,26 @@
     background-position: center;
 }
 
+.second-section-wrapper {
+   
+    & i {
+        color: #dee2e6;
+    }
+    
+    & .normalize-icon {
+        font-size: 3rem;
+        padding-right: 15px;
+    }
+
+
+}
+
+.third-section-wrapper {
+    background-color: #bdcad9;
+    background-image: linear-gradient(315deg, #bdcad9 0%, #e1dada 74%);
+    background-size: cover;
+}
+
 .mask {
     background-color: rgba(0, 0, 0, 0.6);
     height: 444px;
@@ -37,18 +57,10 @@
     padding-left: 15px;
 }
 
-.second-section-wrapper {
-   
-    & i {
-        color: #dee2e6;
-    }
-    
-    & .normalize-icon {
-        font-size: 3rem;
-        padding-right: 15px;
-    }
-
-
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: left;
 }
 
 .border-bottom {

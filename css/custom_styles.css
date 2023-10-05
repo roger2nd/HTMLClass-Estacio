@@ -25,7 +25,15 @@
     background-size: cover;
 }
 
-.fourth-section-wrappr {
+.fourth-section-wrapper {
+    width: auto;
+
+    & .responsive-video {
+        padding-top: 60px; overflow: hidden;
+    }
+}
+
+.fifth-section-wrappr {
     background-image: url(https://source.unsplash.com/1920x1080/?nature);
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,6 +81,7 @@
 .border-bottom {
     border-bottom: 3px solid #dee2e6!important;
 }
+
 .custom-divider-larger {
     height: 3rem;
     background-color: rgba(0, 0, 0, .1);
@@ -93,5 +102,9 @@
 @media (max-width: 752px) {
     .normalize-section-height {
         height: auto;
+    }
+
+    .ratio-4x3 {
+        --bs-aspect-ratio: 50%;
     }
 }

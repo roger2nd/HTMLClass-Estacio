@@ -196,6 +196,11 @@ html * {
         & .company-name {
             display: none;
         }
+
+        & .company-rights {
+            display: block;
+        }
+
     }
 }
 

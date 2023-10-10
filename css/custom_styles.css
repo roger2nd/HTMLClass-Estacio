@@ -75,8 +75,35 @@ html * {
         border-width: 2px;
     }
 
+    & .feat-heading {
+        color: aliceblue;
+    }
+
+    & .feat-section {
+        color: white;
+    }
+
+    & .justify-content-custom {
+        justify-content: center;
+    }
+
     & .opaco {
-        opacity: 60%;
+        opacity: 40%;
+    }
+
+     .namings {
+        display: none;
+     }
+
+    & .blockquot-custom {
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+        font-size: 0.875em;
+        color: aliceblue;
+    }
+    
+    & .ceo-name {
+        color: white;
     }
 }
 
@@ -183,5 +210,19 @@ html * {
     .sixth-section-wrapper {
         margin-top: 15px;
         margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .fifth-section-wrapper {
+        
+        & .namings {
+            color: white;
+            display: inline;
+        }
+
+        & .justify-content-custom {
+            justify-content: left;
+        }
     }
 }

@@ -193,14 +193,9 @@ html * {
     }
 
     footer {
-        & .company-name {
-            display: none;
+        & .company-wrapper {
+            font-size: small;
         }
-
-        & .company-rights {
-            display: block;
-        }
-
     }
 }
 
